@@ -1,0 +1,87 @@
+.left-column-home h2{
+    color: var(--black, #000);
+        font-family: Inter;
+        font-size: 49px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        margin-top: 0px;
+       
+        /* 58.8px */
+    }
+    
+    .left-column-home p{
+    color: var(--black, #000);
+        width: 85%; 
+        
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120%;
+        align-self: stretch;
+    }
+    
+    .right-column-home li{
+        list-style: none;
+    }
+    
+    .desc-home h6{
+        align-self: stretch;
+        color: var(--black, #000);
+        
+            /* Heading/H6 */
+           
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 140%;
+            /* 28px */
+            margin-top: 0px;
+            margin-bottom: 0px;
+            
+    }
+    
+    .desc-home p{
+        align-self: stretch;
+        color: var(--black, #000);
+        
+            /* Text/Regular/Normal */
+           
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%;
+            margin-top: 15px;
+            /* 24px */
+    }
+    
+    .icon-home{
+        width: 48px;
+            height: 48px;
+    }
+    
+    
+    
+    
+    .icon-text{
+       display: flex; 
+    width:95%; 
+    height: Hug (134px); 
+    gap: 10px;
+    }
+    .desc-home{
+        margin-left: 10px;
+    }
+    
+    .container-home{
+        display: flex;
+        padding: 5%;
+        width: 115%;
+    }
+    @media screen and  (max-width: 800px) {
+       
+       .container-home {
+           display: block;
+           padding: 10%;
+       }
+    }

@@ -1,0 +1,65 @@
+.app-container {
+    background-color: #FEF6EC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0%; /* Adjust padding for smaller screens */
+    background-image: url("../CSS/yugaas-logo.png");
+    background-size: 9ovh;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 115%;
+    height: 100%;
+}
+
+.link-with-background {
+    /* Add styles for the link with background image */
+    display: inline-block;
+    padding: 10px 20px;
+    background-image: url("../CSS/yugaas-logo.png"); /* Correct relative path */
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    width: 100%;
+  }
+
+.title {
+    font-size: 40px; /* Decrease font size for smaller screens */
+}
+
+.app-container p {
+    width: 100%; /* Use 100% width for responsiveness */
+    height: 100%;
+    font-size: 18px; /* Decrease font size for smaller screens */
+    line-height: 28px; /* Adjust line height for better readability */
+}
+
+.learnmore {
+    padding: 8px 20px; /* Adjust padding for smaller screens */
+    border-radius: 9px;
+    border: 1px solid #F18D2E;
+    color: #F18D2E;
+    font-size: 16px; /* Decrease font size for smaller screens */
+    background-color: black;
+}
+
+/* Responsive Styles */
+@media screen and (min-width: 769px) {
+    /* Styles for tablet and desktop devices */
+    .app-container {
+        padding: 75px 64px 112px;
+    }
+
+    .title {
+        font-size: 69px;
+    }
+
+    .app-container p {
+        width: 939.43px;
+        font-size: 22px;
+        line-height: 33px;
+    }
+}
